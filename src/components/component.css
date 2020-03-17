@@ -1,0 +1,28 @@
+.logo1 {
+  max-width: 120px;
+  max-height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+  position: relative;
+}
+.logo2 {
+  max-width: 400px;
+  max-height: 400px;
+  top: 90px;
+  left: 490px;
+  position: absolute;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .logo2 {
+    animation: App-logo-spin infinite 3s linear;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
